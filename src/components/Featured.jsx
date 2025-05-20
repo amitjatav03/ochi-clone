@@ -8,7 +8,7 @@ const Featured = () => {
     const handleHover = (index) => {
         cards[index].start({y: "0"})
     }
-
+ 
     const handleHoverEnd = (index) => {
         cards[index].start({y: "100%"})
     }

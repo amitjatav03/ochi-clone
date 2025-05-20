@@ -11,7 +11,7 @@ const LandingPage = () => {
             {["We Create", "Eye Opening", "Presentations"].map((item, index) => {
                 return <div key={index} className='masker'>
                     <div className="w-fit flex items-end overflow-hidden">
-                        {index == 1 && (
+                        {index == 1 && ( 
                             <motion.div 
                                 initial={{width: 0}}
                                 animate={{width: "9vw"}} 

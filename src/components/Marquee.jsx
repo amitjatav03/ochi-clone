@@ -11,7 +11,7 @@ const Marquee = () => {
             transition={{
               ease: "linear",
               repeat: Infinity,
-              duration: 5
+              duration: 5 
             }}
             className='text-[25vw] uppercase leading-none font-[FoundersGrotesk] -mt-[5.2vw] -mb-[2vw] pr-20'
             >

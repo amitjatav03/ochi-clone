@@ -14,7 +14,7 @@ const Eyes = () => {
             var angle = Math.atan2(deltaY, deltaX) * (180/Math.PI); // 1 radian = 57.29.. (180/Math.PI)
             setRotate(angle-180);
         })
-    })
+    }) 
 
 
   return (
